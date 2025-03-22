@@ -1,0 +1,25 @@
+body {
+  @apply bg-gray-900;
+}
+
+.scrollbar::-webkit-scrollbar{
+  width: 10px;
+}
+.scrollbar::-webkit-scrollbar-track{
+  @apply bg-gray-800;
+}
+.scrollbar::-webkit-scrollbar-thumb{
+  @apply bg-gray-600 rounded-full hover:bg-highlight;
+}
+
+.dark-card {
+  @apply bg-gray-800 text-white shadow-md border border-gray-700;
+}
+
+.dark-input {
+  @apply bg-gray-700 text-white border-gray-600 focus:outline-highlight;
+}
+
+.dark-button {
+  @apply bg-primary text-white font-bold hover:bg-highlight transition-colors duration-300;
+}
